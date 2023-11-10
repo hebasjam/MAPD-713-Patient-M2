@@ -1,0 +1,28 @@
+{
+  "name": "MAPD-713-Patient-M2",
+  "version": "3.0.0",
+  "description": "Project M2",
+  "main": "index.js",
+  "engines": {
+    "node": "14.19.3",
+    "npm": "6.14.17"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "heroku-postbuild": "npm run build"
+  },
+  "authors": [
+    "Heba/Tareq"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^5.3.7",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^7.2.2",
+    "restify-errors": "^6.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
