@@ -1,11 +1,11 @@
 {
   "name": "MAPD-713-Patient-M2",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Project M2",
   "main": "index.js",
   "engines": {
-    "node": "14.19.3",
-    "npm": "6.14.17"
+    "node": "20.9.0",
+    "npm": "10.2.3"
   },
   "scripts": {
     "start": "node index.js",
@@ -17,12 +17,12 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "mongoose": "^5.3.7",
+    "mongoose": "^8.0.0",
     "mongoose-timestamp": "^0.6.0",
-    "restify": "^7.2.2",
-    "restify-errors": "^6.1.1"
+    "restify": "^11.1.0",
+    "restify-errors": "^8.0.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^3.0.1"
   }
 }
